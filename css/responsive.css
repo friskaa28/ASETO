@@ -1298,10 +1298,23 @@ body {
 .footer .footer-top {
 	padding: 65px 0px;
 }
+}
+.clients-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Creates 3 equal columns */
+    gap: 20px; /* Space between columns */
+    padding: 20px; /* Padding around the grid */
+    text-align: center; /* Center align the content */
+}
 
+.single-client img {
+    max-width: 100%; /* Ensure images fit within their containers */
+    height: auto;
+    padding: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); /* Optional: Adds a subtle shadow */
+}
 
-
-
-
-
+h2 {
+    margin-bottom: 20px; /* Space between title and grid */
+    text-align: center;
 }
