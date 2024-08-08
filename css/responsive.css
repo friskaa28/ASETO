@@ -360,20 +360,19 @@ Version:	1.1
 .footer .single-footer {
 	margin: 20px 0;
 }
+
+body {
+	background-color: #222;
+	color: #fff;
+	font-family: sans-serif;
+  }
+  
 .footer .single-footer h2 {
 	padding-bottom: 20px;
 }
 .footer .footer-top {
 	padding: 65px 0px;
 }
-
-
-
-
-
-
-
-
 }
 /* Mobile Screen */
 @media only screen and (max-width: 767px) {
