@@ -1715,22 +1715,38 @@ body{
 	Start Clients CSS
 ==========================*/
 .clients{
-	background-image:url('img/client-bg.jpg');
+	/*background-image:url('img/client-bg.jpg');
 	background-size:cover;
 	background-position:center;
 	padding:100px 0px;
-	position:relative;
+	position:relative;*/
+
+	background-color: #ffffff; /* Ubah background agar lebih ringan */
+    padding: 50px 0; /* Kurangi padding untuk menyesuaikan dengan konten */
+    text-align: center; /* Pusatkan teks */
 }
 .clients .single-clients{
+	display: inline-block; /* Atur setiap client agar berada dalam satu baris */
+    margin: 0 20px; /* Beri jarak antara setiap client */
 	
 }
 .clients .single-clients img {
-	width: 100%;
+	/*width: 100%;
 	cursor: pointer;
 	text-align: center;
 	float: none;
-	padding: 0 35px;
+	padding: 0 35px; */
+
+	width: auto; /* Sesuaikan lebar gambar */
+    max-width: 150px; /* Atur batas maksimum lebar gambar */
+    height: auto; /* Jaga proporsi gambar */
+    transition: transform 0.3s ease; /* Tambahkan efek hover */
 }
+
+.clients .single-clients img:hover {
+    transform: scale(1.1); /* Gambar akan membesar saat dihover */
+}
+
 /*========================
 	End Clients CSS
 ==========================*/
